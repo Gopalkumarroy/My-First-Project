@@ -1,0 +1,61 @@
+  resetcss*//*
+{
+    margin: 0;
+    p[adding: 0;]
+}
+
+/* CSS VARIABLE*/
+:root{
+    --navbar-height: 59px;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* navigation Bar: Logo and image */
+#logo{
+    margin: 4px 5px;
+}
+
+#logo img{
+    height: 5px;
+    margin: 1px  2px;
+}
+
+/* Navigation Bar: list styling */
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+   
+#navbar::before{
+        content: "";
+        background-color: black
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index; -1;
+        opacity: 0.4;
+    }
+
+3navbar ul li{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;   
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration:  none;
+    background-color: white;
+    list-style: none;
+    font-size: 1.3rem;
+}
